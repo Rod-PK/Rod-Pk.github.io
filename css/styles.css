@@ -108,9 +108,10 @@ header {
 .main-section {
     width: 100%;
     margin: auto;
+    padding-top: 2%;
 }
 
-body{
+body {
     background-color: rgb(34, 34, 34);
 }
 
@@ -121,7 +122,7 @@ body{
     height: 100vh;
 }
 
-.main-container h3 {
+.main-container h1 {
     display: flex;
     justify-content: center;
 }
@@ -135,6 +136,7 @@ body{
     grid-row-gap: 10%;
     margin-top: 5%;
     /* padding: 30px; */
+    padding-top: 2%;
 }
 
 .sub-div {
@@ -154,21 +156,26 @@ body{
     transform: scale(1.1);
 }
 
+.sub-div h2 {
+    font-style: italic;
+}
+
 .first-p {
     width: 80%;
-    padding: 30px;
+    padding: 20px;
 }
 
 .sub-section1 {
     /* width: 100%; */
     margin: auto;
+    /* margin-bottom: 3rem; */
 }
 
 .main-container1 {
     display: flex;
     justify-content: center;
-    gap: 5%;
-    width: 80%;
+    gap: 10%;
+    width: 70%;
     margin: auto;
     /* margin-top: 5%; */
     /* margin-bottom: 3.5rem; */
@@ -180,15 +187,65 @@ body{
 } */
 
 .image-container img {
-    width: auto;
-    height: 70vh;
+    width: 100px;
+    height: 100px;
     border-radius: 1px;
+    transition: width 2s, height 4s;
 }
 
-.main-container2{
+.image-container img:hover {
+    width: 400px;
+    height: 500px;
+}
+
+.main-container2 {
     width: 70%;
+    padding-top: 10%;
+    line-height: 2;
 }
 
-.second-p{
-    width: 80%;
+.second-p {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.but2 {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: o.5s;
+    margin-top: 1%;
+}
+
+.but2:hover {
+    background-color: red;
+    color: white;
+}
+
+.sub-div1{
+    width: 70%;
+    height: 100%;
+}
+
+.div-1 {
+    display: grid;
+    /* flex-direction: column; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 10px;
+    padding-top: 7%;
+}
+
+.sub-section2{
+    padding-top: 10%;
+}
+
+.div-1 img{
+    height: 60vh;
+    width: 100%;
 }
