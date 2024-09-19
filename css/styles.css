@@ -25,7 +25,7 @@
 }
 
 .nav-items a:hover {
-    color: red;
+    color: rgb(222, 26, 26);
 }
 
 .tracking-out-contract {
@@ -101,7 +101,7 @@ header {
 }
 
 .but1:hover {
-    background-color: red;
+    background-color: rgb(222, 26, 26);
     color: white;
 }
 
@@ -109,10 +109,11 @@ header {
     width: 100%;
     margin: auto;
     padding-top: 2%;
+    color: rgb(67, 66, 66);
 }
 
 body {
-    background-color: rgb(224, 158, 158);
+    background-color: white;
 }
 
 .main-container {
@@ -144,10 +145,16 @@ body {
     line-height: 1.7;
     transition: transform .2s;
     width: 90%;
-    height: 30vh;
+    height: 40vh;
     padding: 10px;
-    background-color: rgb(51, 51, 51);
-    color: rgb(168, 163, 163);
+    background-color: rgb(251, 249, 249);
+    color: rgb(67, 66, 66);
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 0.1), 0 3px 3px -1px rgb(0 0 0 / 0.1);
+}
+
+.sub-div img{
+    width: 10%;
+    height: 10vh;
 }
 
 .sub-div:hover {
@@ -164,12 +171,14 @@ body {
 .first-p {
     width: 80%;
     padding: 20px;
+    padding-left: 10%;
 }
 
 .sub-section1 {
     /* width: 100%; */
     margin: auto;
     /* margin-bottom: 3rem; */
+    padding-top: 15%;
 }
 
 .main-container1 {
@@ -207,7 +216,9 @@ body {
 
 .second-p {
     width: 100%;
+    line-height: 1.9;
     font-size: 1rem;
+    color: rgb(67, 66, 66);
 }
 
 .but2 {
@@ -223,12 +234,12 @@ body {
 }
 
 .but2:hover {
-    background-color: red;
+    background-color: rgb(222, 26, 26);
     color: white;
 }
 
 .sub-section2 {
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 10%;
 }
 
@@ -278,6 +289,7 @@ body {
 
 .div-1-container:hover .overlay {
     opacity: 1;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 0.1), 0 5px 5px -1px rgb(0 0 0 / 0.1);
 }
 
 .text {
@@ -351,5 +363,24 @@ body {
 
   .sub-section3{
     padding-top: 7%;
+    width: 70%;
+    margin: auto;
+  }
+
+  .div-3 {
+    display: flex;
   }
   
+  .div-4 {
+    width: 50%;
+  }
+
+  .form{
+    width: 50%;
+
+  }
+
+  .form input{
+    /* padding: 10%; */
+    width: 90%;
+  }
