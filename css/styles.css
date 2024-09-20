@@ -216,8 +216,12 @@ body {
 
 .main-container2 {
     width: 70%;
-    padding-top: 4%;
+    padding-top: 2%;
     line-height: 2;
+}
+
+.main-container2 h1{
+    font-size: 2rem;
 }
 
 .second-p {
@@ -315,7 +319,7 @@ body {
 }
 
 .text h3 {
-    font-size: 70%;
+    font-size: 85%;
 }
 
 .div-2 {
