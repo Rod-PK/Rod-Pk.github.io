@@ -438,3 +438,18 @@ body {
     height: 40vh;
     background-color: black;
 }
+
+.sub-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.sub-footer h2{
+    color: white;
+}
+
+.sub-footer2{
+    display: flex;
+    gap: 10%;
+}
