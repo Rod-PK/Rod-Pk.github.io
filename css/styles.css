@@ -4,7 +4,7 @@
 
 header {
   background-image: url(../assets/images/bg1.jpg);
-  height: 300vh;
+  height: 310vh;
 }
 
 .main-div {
@@ -53,13 +53,13 @@ header {
   margin: auto;
 }
 
-.hero-div h1{
+.hero-div h1 {
   color: rgb(199, 199, 192);
   font-size: 3rem;
   font-weight: 100;
 }
 
-.about{
+.about {
   color: rgb(255, 121, 74);
 }
 
@@ -164,7 +164,7 @@ header {
 
 .sub-div7 {
   background-color: rgb(35, 43, 52);
-  height: 70vh;
+  height: 55vh;
 }
 
 .sub-div7:before {
@@ -175,7 +175,7 @@ header {
   opacity: 0.12;
   position: absolute;
   width: 90%;
-  height: 70vh;
+  height: 55vh;
   margin: auto;
 }
 
@@ -189,19 +189,78 @@ header {
 .projects {
   width: 80%;
   margin: auto;
+  color: rgb(255, 121, 74);
 }
 
 .sub-div9 {
   background-color: rgb(30, 33, 42);
   box-shadow: 0 5px 5px 0 rgb(0 0 0 / 0.2), 0 5px 5px -1px rgb(0 0 0 / 0.2);
+  width: 50%;
+  padding: 3%;
 }
 
 .sub-div9 h3 {
   width: 90%;
   margin: auto;
+  color: rgb(211, 200, 200);
 }
 
 .sub-div9 p {
   width: 90%;
   margin: auto;
+  color: rgb(211, 200, 200);
+}
+
+.main-footer {
+  width: 100%;
+  margin: auto;
+  background-image: url(../assets/images/footerbg.jpg);
+  height: 30vh;
+}
+
+.sub-footer {
+  width: 80%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.sub-footer1 {
+  display: flex;
+  gap: 40%;
+}
+
+.sub-footer2 {
+  color: rgb(211, 200, 200);
+}
+
+.btn {
+  padding: 30%;
+  padding-left: 50%;
+  padding-right: 50%;
+  background-color: rgb(255, 121, 74);
+  border: none;
+  border-radius: 7%;
+}
+
+.btn a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(24, 27, 36);
+  border: solid 1px;
+  border-color: rgb(255, 121, 74);
+}
+
+.btn:active {
+  background-color: rgb(255, 121, 74);
+  opacity: 0.1;
+  border: solid 4px;
+  border-color: rgb(255, 121, 74);
+}
+
+.btn a:hover {
+  color: rgb(255, 121, 74);
 }
