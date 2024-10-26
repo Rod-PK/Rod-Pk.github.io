@@ -257,7 +257,7 @@ header {
 .btn:active {
   background-color: rgb(255, 121, 74);
   opacity: 0.1;
-  border: solid 4px;
+  border: solid 1px;
   border-color: rgb(255, 121, 74);
 }
 
