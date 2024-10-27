@@ -215,7 +215,7 @@ header {
   width: 100%;
   margin: auto;
   background-image: url(../assets/images/footerbg.jpg);
-  height: 30vh;
+  height: 27vh;
 }
 
 .sub-footer {
@@ -263,4 +263,17 @@ header {
 
 .btn a:hover {
   color: rgb(255, 121, 74);
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  justify-content: right;
+  gap: 3%;
+  margin-right: 5%;
+}
+
+.footer-img:hover {
+  background-color: rgb(255, 121, 74);
 }
