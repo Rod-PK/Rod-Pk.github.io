@@ -234,9 +234,9 @@ header {
 }
 
 .btn {
-  padding: 30%;
-  padding-left: 50%;
-  padding-right: 50%;
+  padding: 40%;
+  padding-left: 55%;
+  padding-right: 55%;
   background-color: rgb(255, 121, 74);
   border: none;
   border-top-left-radius: 7px;
@@ -245,16 +245,11 @@ header {
   border-bottom-right-radius: 7px;
 }
 
-.btn a {
-  color: black;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
 .btn:hover {
   background-color: rgb(24, 27, 36);
   border: solid 1px;
   border-color: rgb(255, 121, 74);
+  color: rgb(255, 121, 74);
 }
 
 .btn:active {
@@ -262,6 +257,7 @@ header {
   opacity: 0.1;
   border: solid 1px;
   border-color: rgb(255, 121, 74);
+  color: black;
 }
 
 .btn a:hover {
@@ -279,4 +275,3 @@ header {
 
 .footer-img:hover {
   background-color: rgb(255, 121, 74);
-}
