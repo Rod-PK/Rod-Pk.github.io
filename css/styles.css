@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: url(../assets/images/bg1.jpg);
+  background-image: url(../assets/images/bg2.png);
   height: 325vh;
 }
 
@@ -14,7 +14,7 @@ header {
 }
 
 .line {
-  background-color: rgb(255, 121, 74);
+  background-color: rgb(46, 38, 109);
 }
 
 .nav-div {
@@ -24,7 +24,7 @@ header {
 
 .nav-div1 {
   margin-top: -18px;
-  color: rgb(255, 121, 74);
+  color: rgb(46, 38, 109);
 }
 
 .sub-div {
@@ -48,7 +48,7 @@ header {
 
 .nav-items li {
   text-decoration: none;
-  color: rgb(255, 121, 74);
+  color: rgb(46, 38, 109);
 }
 
 .hero-div {
@@ -58,13 +58,13 @@ header {
 }
 
 .hero-div h1 {
-  color: rgb(255, 121, 74);
+  color: rgb(46, 38, 109);
   font-size: 3rem;
   font-weight: 100;
 }
 
 .about {
-  color: rgb(255, 121, 74);
+  color: rgb(46, 38, 109);
 }
 
 .img_box {
@@ -124,7 +124,7 @@ header {
 .skill {
   width: 80%;
   margin: auto;
-  color: rgb(255, 121, 74);
+  color: rgb(46, 38, 109);
 }
 
 .sub-div4:before {
@@ -194,7 +194,7 @@ header {
 .projects {
   width: 80%;
   margin: auto;
-  color: rgb(255, 121, 74);
+  color: rgb(46, 38, 109);
 }
 
 .sub-div9 {
@@ -211,7 +211,7 @@ header {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: rgb(255, 121, 74);
+  background-color: rgb(46, 38, 109);
   border: none;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -222,15 +222,15 @@ header {
 .sub-div9 button:hover {
   background-color: rgb(24, 27, 36);
   border: solid 1px;
-  border-color: rgb(255, 121, 74);
-  color: rgb(255, 121, 74);
+  border-color: rgb(46, 38, 109);
+  color: rgb(46, 38, 109);
 }
 
 .sub-div9 button:active {
-  background-color: rgb(255, 121, 74);
+  background-color: rgb(46, 38, 109);
   opacity: 0.1;
   border: solid 1px;
-  border-color: rgb(255, 121, 74);
+  border-color: rgb(46, 38, 109);
   color: black;
 }
 
@@ -272,7 +272,7 @@ header {
   padding: 40%;
   padding-left: 55%;
   padding-right: 55%;
-  background-color: rgb(255, 121, 74);
+  background-color: rgb(46, 38, 109);
   border: none;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -283,20 +283,20 @@ header {
 .btn:hover {
   background-color: rgb(24, 27, 36);
   border: solid 1px;
-  border-color: rgb(255, 121, 74);
-  color: rgb(255, 121, 74);
+  border-color: rgb(46, 38, 109);;
+  color: rgb(46, 38, 109);;
 }
 
 .btn:active {
-  background-color: rgb(255, 121, 74);
+  background-color: rgb(46, 38, 109);;
   opacity: 0.1;
   border: solid 1px;
-  border-color: rgb(255, 121, 74);
+  border-color: rgb(46, 38, 109);;
   color: black;
 }
 
 .btn a:hover {
-  color: rgb(255, 121, 74);
+  color: rgb(46, 38, 109);;
 }
 
 .socials {
@@ -309,5 +309,5 @@ header {
 }
 
 .footer-img:hover {
-  background-color: rgb(255, 121, 74);
+  background-color: rgb(46, 38, 109);;
 }
