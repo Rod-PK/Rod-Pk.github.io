@@ -24,10 +24,14 @@ header {
 
 .nav-div1 {
   margin-top: -18px;
-  color: rgb(199, 199, 192);
+  color: rgb(255, 121, 74);
 }
 
 .sub-div {
+  background-image: url(../assets/images/Untitled\ design\ \(1\).png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
   background-color: rgb(24, 27, 36);
   height: 65vh;
 }
@@ -44,7 +48,7 @@ header {
 
 .nav-items li {
   text-decoration: none;
-  color: rgb(199, 199, 192);
+  color: rgb(255, 121, 74);
 }
 
 .hero-div {
@@ -54,7 +58,7 @@ header {
 }
 
 .hero-div h1 {
-  color: rgb(199, 199, 192);
+  color: rgb(255, 121, 74);
   font-size: 3rem;
   font-weight: 100;
 }
