@@ -20,7 +20,7 @@ export default function ProjectModal({ project, onClose }) {
           exit={{ opacity: 0, scale: 0.95, y: 20 }}
           transition={{ duration: 0.3 }}
           onClick={(e) => e.stopPropagation()}
-          className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-2xl border border-[var(--color-dark-500)] bg-[var(--color-dark-800)] p-8"
+          className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-2xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-elevated)] p-8 shadow-2xl"
         >
           {/* Close Button */}
           <button
@@ -32,12 +32,12 @@ export default function ProjectModal({ project, onClose }) {
           </button>
 
           {/* Category */}
-          <span className="inline-block rounded-full bg-[var(--color-dark-700)] px-3 py-1 text-xs font-medium text-[var(--color-accent-blue)] mb-4">
+          <span className="inline-block rounded-full border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs font-medium text-[var(--color-text-secondary)] mb-4">
             {project.category}
           </span>
 
           {/* Title */}
-          <h2 className="text-2xl font-bold text-[var(--color-text-primary)] mb-1">
+          <h2 className="text-2xl font-semibold tracking-tight text-[var(--color-text-primary)] mb-1">
             {project.title}
           </h2>
           <p className="text-sm text-[var(--color-text-muted)] mb-6">
@@ -58,7 +58,7 @@ export default function ProjectModal({ project, onClose }) {
               {project.tech.map((t) => (
                 <span
                   key={t}
-                  className="rounded-full border border-[var(--color-dark-500)] px-3 py-1 text-xs text-[var(--color-text-secondary)]"
+                  className="rounded-full border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs text-[var(--color-text-secondary)] font-mono uppercase"
                 >
                   {t}
                 </span>
@@ -72,7 +72,7 @@ export default function ProjectModal({ project, onClose }) {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg bg-[var(--color-dark-700)] px-5 py-2.5 text-sm font-medium text-[var(--color-text-primary)] transition-colors hover:bg-[var(--color-dark-600)]"
+              className="flex items-center gap-2 rounded-lg bg-[var(--color-text-primary)] px-5 py-2.5 text-sm font-medium text-[var(--color-bg-base)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
             >
               <SiGithub /> View Repository
             </a>

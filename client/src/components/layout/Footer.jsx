@@ -21,7 +21,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[var(--color-dark-500)] bg-[var(--color-dark-900)]">
+    <footer className="border-t border-[var(--color-border-subtle)] bg-[var(--color-bg-base)]">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-12 md:flex-row md:justify-between">
         {/* Branding */}
         <p className="text-sm text-[var(--color-text-secondary)]">
@@ -37,7 +37,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="text-[var(--color-text-muted)] transition-colors duration-200 hover:text-[var(--color-accent-blue)] text-xl"
+              className="text-[var(--color-text-muted)] transition-colors duration-200 hover:text-[var(--color-text-primary)] text-xl"
             >
               <Icon />
             </a>

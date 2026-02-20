@@ -10,10 +10,10 @@ export default function Projects() {
   return (
     <>
       <Section id="projects">
-        <p className="mb-2 text-sm font-medium tracking-widest uppercase text-[var(--color-accent-blue)]">
+        <p className="mb-2 text-xs font-mono tracking-widest uppercase text-[var(--color-text-muted)]">
           Projects
         </p>
-        <h2 className="mb-10 text-3xl font-bold md:text-4xl">
+        <h2 className="mb-10 text-3xl font-medium tracking-tight md:text-4xl">
           Things I've built
         </h2>
 

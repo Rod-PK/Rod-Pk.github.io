@@ -7,11 +7,11 @@ export default function Skills() {
 
   return (
     <Section id="skills">
-      <p className="mb-2 text-sm font-medium tracking-widest uppercase text-[var(--color-accent-blue)]">
+      <p className="mb-2 text-xs font-mono tracking-widest uppercase text-[var(--color-text-muted)]">
         Skill Set
       </p>
-      <h2 className="mb-10 text-3xl font-bold md:text-4xl">
-        Technologies I work with
+      <h2 className="mb-10 text-3xl font-medium tracking-tight md:text-4xl">
+        Backend, APIs, data, and tooling — built for production.
       </h2>
 
       <div className="space-y-10">

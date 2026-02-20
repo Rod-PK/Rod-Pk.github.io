@@ -19,7 +19,7 @@ export default function BackToTop() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="fixed bottom-8 right-8 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--color-dark-500)] bg-[var(--color-dark-800)] text-[var(--color-text-muted)] shadow-lg transition-colors hover:border-[var(--color-accent-blue)] hover:text-[var(--color-accent-blue)]"
+          className="fixed bottom-8 right-8 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[var(--color-border-subtle)] bg-[var(--color-bg-surface)] text-[var(--color-text-muted)] shadow-none transition-colors hover:border-[var(--color-border-hover)] hover:text-[var(--color-text-primary)] hover:bg-[var(--color-bg-elevated)]"
           aria-label="Back to top"
         >
           <HiChevronUp className="text-lg" />

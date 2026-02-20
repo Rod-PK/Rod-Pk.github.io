@@ -43,9 +43,9 @@ export default function Navbar() {
         {/* Logo */}
         <button
           onClick={() => scrollTo('home')}
-          className="text-lg font-bold tracking-tight text-[var(--color-text-primary)] hover:text-[var(--color-accent-blue)] transition-colors"
+          className="text-lg font-bold tracking-tight text-[var(--color-text-primary)] hover:text-[var(--color-accent-brand)] transition-colors"
         >
-          RH<span className="text-[var(--color-accent-blue)]">.</span>
+          RH<span className="text-[var(--color-accent-brand)]">.</span>
         </button>
 
         {/* Desktop Links */}
@@ -57,7 +57,7 @@ export default function Navbar() {
                 className={cn(
                   'relative text-sm font-medium transition-colors duration-200',
                   activeSection === link.id
-                    ? 'text-[var(--color-accent-blue)]'
+                    ? 'text-[var(--color-text-primary)]'
                     : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'
                 )}
               >
@@ -65,7 +65,7 @@ export default function Navbar() {
                 {activeSection === link.id && (
                   <motion.span
                     layoutId="nav-underline"
-                    className="absolute -bottom-1 left-0 h-0.5 w-full bg-[var(--color-accent-blue)] rounded-full"
+                    className="absolute -bottom-1 left-0 h-0.5 w-full bg-[var(--color-text-primary)] rounded-full"
                   />
                 )}
               </button>
@@ -77,7 +77,7 @@ export default function Navbar() {
         <a
           href="/resume/Rodney_Hinson_Resume.pdf"
           download
-          className="hidden md:inline-flex items-center gap-2 rounded-lg border border-[var(--color-accent-blue)] px-4 py-2 text-sm font-medium text-[var(--color-accent-blue)] transition-all hover:bg-[var(--color-accent-blue)] hover:text-[var(--color-dark-900)]"
+          className="hidden md:inline-flex items-center gap-2 rounded-lg bg-[var(--color-text-primary)] px-4 py-2 text-sm font-medium text-[var(--color-bg-base)] transition-all hover:scale-[1.02] active:scale-[0.98]"
         >
           Resume
         </a>
@@ -109,7 +109,7 @@ export default function Navbar() {
                     className={cn(
                       'text-sm font-medium transition-colors',
                       activeSection === link.id
-                        ? 'text-[var(--color-accent-blue)]'
+                        ? 'text-[var(--color-text-primary)]'
                         : 'text-[var(--color-text-secondary)]'
                     )}
                   >
@@ -121,7 +121,7 @@ export default function Navbar() {
                 <a
                   href="/resume/Rodney_Hinson_Resume.pdf"
                   download
-                  className="rounded-lg border border-[var(--color-accent-blue)] px-4 py-2 text-sm font-medium text-[var(--color-accent-blue)]"
+                  className="rounded-lg bg-[var(--color-text-primary)] px-4 py-2 text-sm font-medium text-[var(--color-bg-base)]"
                 >
                   Resume
                 </a>

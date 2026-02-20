@@ -3,29 +3,29 @@ import Section from '../layout/Section'
 export default function About() {
   return (
     <Section id="about">
-      <p className="mb-2 text-sm font-medium tracking-widest uppercase text-[var(--color-accent-blue)]">
+      <p className="mb-2 text-xs font-mono tracking-widest uppercase text-[var(--color-text-muted)]">
         About Me
       </p>
-      <h2 className="mb-8 text-3xl font-bold md:text-4xl">
-        Building the backend that powers great experiences
+      <h2 className="mb-8 text-3xl font-medium tracking-tight md:text-4xl">
+        Backend-first engineer. APIs, scale, and AI-ready systems.
       </h2>
 
       <div className="grid gap-8 md:grid-cols-2">
         {/* Bio */}
         <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed">
           <p>
-            I'm <span className="text-[var(--color-text-primary)] font-medium">Rodney Hinson</span>,
-            a Fullstack &amp; AI Engineer specializing in scalable backend systems, modern React
-            interfaces, and intelligent features powered by machine learning.
+            <span className="text-[var(--color-text-primary)] font-medium">Rodney Hinson</span> —
+            Fullstack &amp; AI Engineer. I ship production backends, RESTful APIs, and modern
+            frontends. Strong in Node.js, React, and bringing AI/ML into real products.
           </p>
           <p>
-            From building a real-time EV charging platform for Ghana to enterprise e-commerce
-            backends during my internship at Corextreme, I focus on writing clean, production-grade
-            code that solves real-world problems.
+            Experience ranges from real-time EV charging platforms to enterprise e-commerce
+            backends (Corextreme). I write maintainable code, design for scale, and integrate
+            cleanly with existing systems.
           </p>
           <p>
-            I thrive at the intersection of backend engineering and AI — designing APIs that are
-            robust, developer-friendly, and ready for scale.
+            Open to global, hybrid, and remote roles where backend quality and intelligent
+            features matter.
           </p>
         </div>
 
@@ -35,16 +35,16 @@ export default function About() {
             { value: '5+', label: 'Projects Shipped' },
             { value: '3+', label: 'APIs in Production' },
             { value: 'Node.js', label: 'Primary Runtime' },
-            { value: 'AI/ML', label: 'Exploring Next' },
+            { value: 'AI/ML', label: 'In Practice' },
           ].map((stat) => (
             <div
               key={stat.label}
-              className="flex flex-col items-center justify-center rounded-xl border border-[var(--color-dark-500)] bg-[var(--color-dark-800)] p-6 text-center transition-colors hover:border-[var(--color-accent-blue)]"
+              className="flex flex-col items-center justify-center rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-surface)] p-6 text-center shadow-none transition-all duration-300 ease-out hover:border-[var(--color-border-hover)] hover:bg-[var(--color-bg-elevated)]"
             >
-              <span className="text-2xl font-bold text-[var(--color-accent-blue)]">
+              <span className="text-2xl font-bold text-[var(--color-text-primary)]">
                 {stat.value}
               </span>
-              <span className="mt-1 text-xs text-[var(--color-text-muted)]">
+              <span className="mt-1 text-xs text-[var(--color-text-muted)] font-mono uppercase">
                 {stat.label}
               </span>
             </div>
