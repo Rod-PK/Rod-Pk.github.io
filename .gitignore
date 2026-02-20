@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+client/.env*
+server/.env*
+
+# Build output
+dist/
+build/
+client/dist/
+server/dist/
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing / cache
+coverage/
+.cache/
+.eslintcache
+
+# Temp
+*.tmp
+*.temp
