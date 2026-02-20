@@ -50,7 +50,7 @@ export default function ContactForm() {
               onChange={handleChange}
               placeholder="Your name"
               className={cn(
-                'w-full rounded-lg border bg-[var(--color-bg-base)] px-4 py-3 text-sm text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] outline-none transition-colors focus:border-[var(--color-text-secondary)] focus:ring-1 focus:ring-[var(--color-text-secondary)]',
+                'w-full rounded-xl border bg-[var(--color-bg-base)] px-4 py-3 text-sm text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] outline-none transition-colors focus:border-[var(--color-text-secondary)] focus:ring-1 focus:ring-[var(--color-text-secondary)]',
                 errors.name ? 'border-red-500' : 'border-[var(--color-border-subtle)]'
               )}
             />
@@ -70,7 +70,7 @@ export default function ContactForm() {
               onChange={handleChange}
               placeholder="you@example.com"
               className={cn(
-                'w-full rounded-lg border bg-[var(--color-bg-base)] px-4 py-3 text-sm text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] outline-none transition-colors focus:border-[var(--color-text-secondary)] focus:ring-1 focus:ring-[var(--color-text-secondary)]',
+                'w-full rounded-xl border bg-[var(--color-bg-base)] px-4 py-3 text-sm text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] outline-none transition-colors focus:border-[var(--color-text-secondary)] focus:ring-1 focus:ring-[var(--color-text-secondary)]',
                 errors.email ? 'border-red-500' : 'border-[var(--color-border-subtle)]'
               )}
             />
@@ -90,7 +90,7 @@ export default function ContactForm() {
               onChange={handleChange}
               placeholder="Tell me about your project..."
               className={cn(
-                'w-full resize-none rounded-lg border bg-[var(--color-bg-base)] px-4 py-3 text-sm text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] outline-none transition-colors focus:border-[var(--color-text-secondary)] focus:ring-1 focus:ring-[var(--color-text-secondary)]',
+                'w-full resize-none rounded-xl border bg-[var(--color-bg-base)] px-4 py-3 text-sm text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] outline-none transition-colors focus:border-[var(--color-text-secondary)] focus:ring-1 focus:ring-[var(--color-text-secondary)]',
                 errors.message ? 'border-red-500' : 'border-[var(--color-border-subtle)]'
               )}
             />
@@ -106,7 +106,7 @@ export default function ContactForm() {
             disabled={status === 'sending'}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="w-full rounded-lg bg-[var(--color-text-primary)] py-3.5 text-sm font-semibold text-[var(--color-bg-base)] transition-all disabled:opacity-60 disabled:cursor-not-allowed"
+            className="w-full rounded-xl bg-[var(--color-text-primary)] py-3.5 text-sm font-semibold text-[var(--color-bg-base)] transition-all disabled:opacity-60 disabled:cursor-not-allowed shadow-md shadow-[rgba(230,237,243,0.1)]"
           >
             {status === 'sending' ? 'Sending...' : 'Send Message'}
           </motion.button>

@@ -10,7 +10,7 @@ export default function Section({ id, className, children }) {
       id={id}
       ref={ref}
       className={cn(
-        'relative min-h-screen px-6 py-24 md:px-12 lg:px-24 xl:px-32',
+        'relative min-h-screen px-6 py-32 md:py-40 md:px-12 lg:px-24 xl:px-32',
         className
       )}
     >

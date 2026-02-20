@@ -41,7 +41,7 @@ export default function Experience() {
               {item.tech.map((t) => (
                 <span
                   key={t}
-                  className="rounded-full border border-[var(--color-border-subtle)] bg-transparent px-2.5 py-0.5 text-xs text-[var(--color-text-muted)] font-mono uppercase"
+                  className="rounded-xl border border-[var(--color-border-subtle)] bg-transparent px-2.5 py-0.5 text-xs text-[var(--color-text-muted)] font-mono uppercase"
                 >
                   {t}
                 </span>

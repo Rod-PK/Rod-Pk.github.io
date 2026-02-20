@@ -77,7 +77,7 @@ export default function Navbar() {
         <a
           href="/resume/Rodney_Hinson_Resume.pdf"
           download
-          className="hidden md:inline-flex items-center gap-2 rounded-lg bg-[var(--color-text-primary)] px-4 py-2 text-sm font-medium text-[var(--color-bg-base)] transition-all hover:scale-[1.02] active:scale-[0.98]"
+          className="hidden md:inline-flex items-center gap-2 rounded-xl bg-[var(--color-text-primary)] px-5 py-2.5 text-sm font-semibold text-[var(--color-bg-base)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
         >
           Resume
         </a>
@@ -121,7 +121,7 @@ export default function Navbar() {
                 <a
                   href="/resume/Rodney_Hinson_Resume.pdf"
                   download
-                  className="rounded-lg bg-[var(--color-text-primary)] px-4 py-2 text-sm font-medium text-[var(--color-bg-base)]"
+                  className="rounded-xl bg-[var(--color-text-primary)] px-5 py-2.5 text-sm font-semibold text-[var(--color-bg-base)]"
                 >
                   Resume
                 </a>

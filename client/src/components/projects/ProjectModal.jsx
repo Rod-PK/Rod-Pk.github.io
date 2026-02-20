@@ -20,7 +20,7 @@ export default function ProjectModal({ project, onClose }) {
           exit={{ opacity: 0, scale: 0.95, y: 20 }}
           transition={{ duration: 0.3 }}
           onClick={(e) => e.stopPropagation()}
-          className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-2xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-elevated)] p-8 shadow-2xl"
+          className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-elevated)] p-8 shadow-2xl shadow-[rgba(0,0,0,0.5)]"
         >
           {/* Close Button */}
           <button
@@ -32,7 +32,7 @@ export default function ProjectModal({ project, onClose }) {
           </button>
 
           {/* Category */}
-          <span className="inline-block rounded-full border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs font-medium text-[var(--color-text-secondary)] mb-4">
+          <span className="inline-block rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs font-medium text-[var(--color-text-secondary)] mb-4">
             {project.category}
           </span>
 
@@ -58,7 +58,7 @@ export default function ProjectModal({ project, onClose }) {
               {project.tech.map((t) => (
                 <span
                   key={t}
-                  className="rounded-full border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs text-[var(--color-text-secondary)] font-mono uppercase"
+                  className="rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs text-[var(--color-text-secondary)] font-mono uppercase"
                 >
                   {t}
                 </span>
@@ -72,7 +72,7 @@ export default function ProjectModal({ project, onClose }) {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg bg-[var(--color-text-primary)] px-5 py-2.5 text-sm font-medium text-[var(--color-bg-base)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
+              className="flex items-center gap-2 rounded-xl bg-[var(--color-text-primary)] px-6 py-3 text-sm font-semibold text-[var(--color-bg-base)] transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-md shadow-[rgba(230,237,243,0.1)]"
             >
               <SiGithub /> View Repository
             </a>

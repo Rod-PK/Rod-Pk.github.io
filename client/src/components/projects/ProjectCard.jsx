@@ -10,10 +10,10 @@ export default function ProjectCard({ project, index, onOpen }) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
       onClick={() => onOpen(project)}
-      className="group cursor-pointer rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-surface)] p-6 transition-all duration-300 hover:border-[var(--color-border-hover)] hover:bg-[var(--color-bg-elevated)]"
+      className="group cursor-pointer rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-surface)] p-6 shadow-md shadow-[rgba(0,0,0,0.2)] transition-all duration-300 hover:border-[var(--color-border-hover)] hover:bg-[var(--color-bg-elevated)]"
     >
       {/* Category badge */}
-      <span className="inline-block rounded-full border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs font-medium text-[var(--color-text-secondary)] mb-4 transition-colors group-hover:border-[var(--color-border-hover)]">
+      <span className="inline-block rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-base)] px-3 py-1 text-xs font-medium text-[var(--color-text-secondary)] mb-4 transition-colors group-hover:border-[var(--color-border-hover)]">
         {project.category}
       </span>
 
@@ -35,7 +35,7 @@ export default function ProjectCard({ project, index, onOpen }) {
         {project.tech.map((t) => (
           <span
             key={t}
-            className="rounded-full border border-[var(--color-border-subtle)] bg-transparent px-2.5 py-0.5 text-xs text-[var(--color-text-muted)] font-mono uppercase"
+            className="rounded-xl border border-[var(--color-border-subtle)] bg-transparent px-2.5 py-0.5 text-xs text-[var(--color-text-muted)] font-mono uppercase"
           >
             {t}
           </span>

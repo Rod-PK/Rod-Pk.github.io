@@ -7,7 +7,7 @@ export default function SkillCard({ name, icon: Icon, level, index }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.05 }}
-      className="group flex items-center gap-4 rounded-lg border border-[var(--color-border-subtle)] bg-[var(--color-bg-surface)] p-4 transition-all duration-300 hover:border-[var(--color-border-hover)] hover:bg-[var(--color-bg-elevated)]"
+      className="group flex items-center gap-4 rounded-xl border border-[var(--color-border-subtle)] bg-[var(--color-bg-surface)] p-4 shadow-sm shadow-[rgba(0,0,0,0.2)] transition-all duration-300 hover:border-[var(--color-border-hover)] hover:bg-[var(--color-bg-elevated)]"
     >
       <Icon className="text-xl text-[var(--color-text-muted)] transition-colors group-hover:text-[var(--color-text-primary)]" />
       <div className="flex-1">

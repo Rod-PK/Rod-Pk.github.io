@@ -7,23 +7,22 @@
 /* ── Design Tokens ── */
 @theme {
   /* Surface & Background */
-  --color-bg-base: #09090b; /* Zinc 950 */
-  --color-bg-surface: #18181b; /* Zinc 900 */
-  --color-bg-elevated: #27272a; /* Zinc 800 */
+  --color-bg-base: #0B0F14;       /* Deep charcoal */
+  --color-bg-surface: #11161C;    /* Slightly lighter panels */
+  --color-bg-elevated: #161D26;   /* Hover states and elevations */
 
   /* Text */
-  --color-text-primary: #fafafa; /* Zinc 50 */
-  --color-text-secondary: #a1a1aa; /* Zinc 400 */
-  --color-text-muted: #52525b; /* Zinc 600 */
+  --color-text-primary: #E6EDF3;  /* Very Light Blue/White */
+  --color-text-secondary: #9FB0C0;/* Soft blue-grey */
+  --color-text-muted: #627A8F;    /* Deeper blue-grey */
 
   /* Accents */
-  --color-accent-primary: #ededed;
-  --color-accent-brand: #3b82f6; /* Blue 500 */
-  --color-accent-glow: rgba(59, 130, 246, 0.15);
+  --color-accent-brand: #4F8CFF;  /* Soft electric blue */
+  --color-accent-glow: rgba(79, 140, 255, 0.15);
 
   /* Borders / Dividers */
-  --color-border-subtle: #27272a; /* Zinc 800 */
-  --color-border-hover: #3f3f46; /* Zinc 700 */
+  --color-border-subtle: rgba(255, 255, 255, 0.06);
+  --color-border-hover: rgba(255, 255, 255, 0.12);
 
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
@@ -82,7 +81,7 @@ body {
 
 /* ── Utility ── */
 .glass {
-  background: rgba(24, 24, 27, 0.6); /* Zinc 900 with opacity */
+  background: rgba(17, 22, 28, 0.7); /* Hex #11161C */
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--color-border-subtle);
 }

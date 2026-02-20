@@ -31,10 +31,10 @@ export default function Hero() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.4 }}
-        className="text-5xl font-semibold tracking-tight leading-tight md:text-6xl lg:text-7xl"
+        className="text-5xl font-bold tracking-wide leading-tight md:text-6xl lg:text-7xl"
       >
         <span className="text-[var(--color-text-primary)]">Fullstack </span>
-        <span className="text-[var(--color-text-primary)]">&amp; AI</span>
+        <span className="text-[var(--color-accent-brand)]">&amp; AI</span>
         <br />
         <span className="text-[var(--color-text-primary)]">Engineer</span>
       </motion.h1>
@@ -60,7 +60,7 @@ export default function Hero() {
           onClick={() =>
             document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
           }
-          className="rounded-lg bg-[var(--color-text-primary)] px-6 py-2.5 text-sm font-medium text-[var(--color-bg-base)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
+          className="rounded-xl bg-[var(--color-text-primary)] px-7 py-3 text-sm font-semibold text-[var(--color-bg-base)] transition-transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-[rgba(230,237,243,0.1)]"
         >
           View Projects
         </button>
@@ -68,7 +68,7 @@ export default function Hero() {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-lg border border-[var(--color-border-subtle)] bg-transparent px-6 py-2.5 text-sm font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[var(--color-bg-elevated)] hover:text-[var(--color-text-primary)] inline-block"
+          className="rounded-xl border border-[var(--color-border-subtle)] bg-transparent px-7 py-3 text-sm font-semibold text-[var(--color-text-primary)] transition-colors hover:bg-[var(--color-bg-elevated)] hover:border-[var(--color-border-hover)] inline-block"
         >
           Download Resume
         </a>
@@ -76,7 +76,7 @@ export default function Hero() {
           onClick={() =>
             document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
           }
-          className="rounded-lg border border-[var(--color-border-subtle)] bg-transparent px-6 py-2.5 text-sm font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[var(--color-bg-elevated)] hover:text-[var(--color-text-primary)]"
+          className="rounded-xl border border-[var(--color-border-subtle)] bg-transparent px-7 py-3 text-sm font-semibold text-[var(--color-text-primary)] transition-colors hover:bg-[var(--color-bg-elevated)] hover:border-[var(--color-border-hover)]"
         >
           Contact
         </button>
