@@ -1,3 +1,15 @@
+/**
+ * Project entry template (concise, technical, impact-focused):
+ *
+ * title: Product/API name
+ * tagline: One-line category (e.g. "EV Charging Platform", "REST API")
+ * description: 1–2 sentences. What it is, who it serves, core value. No filler.
+ * longDescription: 2–3 sentences. Scope, technical decisions, scale/reliability/security. Outcome or context.
+ * tech: [Stack items]
+ * category: Fullstack | Backend | AI
+ * github: URL
+ * featured: true | false
+ */
 export const projects = [
   {
     id: 'voltpath',
